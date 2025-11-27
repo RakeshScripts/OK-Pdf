@@ -34,7 +34,7 @@ class SecurePDFToolGUI:
         self.setup_split_tab()
 
         # Developer name
-        dev_label = tk.Label(root, text="Developed by Rakesh Rokade (Body & Trims) Email: rr927039.ttl@tatamotors.com", bg="#2e2e2e", fg="white",
+        dev_label = tk.Label(root, text="Developed by Rakesh Rokade (Body & Trims) Email:", bg="#2e2e2e", fg="white",
                              font=("Times New Roman", 10, ))
         dev_label.pack(side=tk.BOTTOM, pady=5)
 
@@ -186,3 +186,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = SecurePDFToolGUI(root)
     root.mainloop()
+
