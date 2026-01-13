@@ -22,7 +22,7 @@ To run the source code, you need Python 3.x installed.
 1. Clone the repository
 Bash
 
-git clone https://github.com/your-username/ok-pdf-tool.git
+git clone https://github.com/RakeshScripts/OK-Pdf.git
 cd ok-pdf-tool
 2. Install required libraries
 This project uses pikepdf for high-performance PDF manipulation and tkinter (which comes standard with most Python installs).
@@ -58,10 +58,13 @@ Step 3: Collect your EXE
 Once finished, the final executable will be located in the dist/ folder.
 
 🖥️ Usage
-Select Tab: Choose between "Merge" or "Split".
+1) Select Tab: Choose between "Merge" or "Split".
 
-Add Files: Use the "Add/Select" buttons to load your PDFs.
+2) Add Files: Use the "Add/Select" buttons to load your PDFs.
 
-Choose Mode: (For Splitting) Use the radio buttons to pick your desired operation.
+3) Choose Mode: (For Splitting) Use the radio buttons to pick your desired operation.
 
-Process: Click the green "Process" button and choose where to save your new file.
+4) Process: Click the green "Process" button and choose where to save your new file.
+
+👨‍💻 Developer
+Rakesh Rokade
